@@ -169,7 +169,7 @@ class parser:
         df.to_csv(f"{today} check_33.csv", index=False)
 
 
-x = parser("2022-09-20 DatabaseConsistencyCheck.pdf")
+x = parser("")
 x.generate_fixed_text()
 x.generate_check_4_stripped()
 x.query_check_4()
